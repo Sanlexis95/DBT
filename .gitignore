@@ -168,6 +168,24 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Environnement virtuel
+my-dbt-env/
+
+# Fichiers de logs générés par DBT
+logs/
+
+# Fichiers de cache
+dbt_modules/
+dbt_packages/
+__pycache__/
+
+# Fichiers personnels
+*.pyc
+*.ipynb_checkpoints/
+
+# Configuration locale de DBT (ne jamais versionner vos mots de passe)
+~/.dbt/
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
