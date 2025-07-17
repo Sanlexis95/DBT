@@ -141,14 +141,6 @@ __pycache__/
 - 🚀 Garder un dépôt **propre et léger**
 - 🤝 Faciliter la **collaboration** avec d’autres développeurs
 
----
-
-## 🧪 Challenge
-
-👉 Créez vous-même un projet DBT local  
-👉 Initialisez-le avec `dbt init`  
-👉 Hébergez-le sur GitHub (comme ici : [Sanlexis95/DBT](https://github.com/Sanlexis95/DBT))  
-👉 Vérifiez que vous excluez bien les bons fichiers via `.gitignore`
 
 ---
 
