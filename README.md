@@ -310,14 +310,6 @@ from status_data
 
 ---
 
-## 🎯 Challenge
-
-Ajoutez une description à **chaque colonne** de `stg_orders.yml` !
-
-Critère de validation :
-✅ Chaque colonne du fichier a une `description:` renseignée.
-
----
 
 📁 Projet : https://github.com/Sanlexis95/DBT  
 🧑‍💻 Auteur : [Sanlexis95](https://github.com/Sanlexis95)
