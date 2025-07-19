@@ -1,0 +1,4 @@
+customer_status,min_order_count,max_order_count
+bronze,0,99
+silver,100,199
+gold,200,
