@@ -1,6 +1,11 @@
 
--- Use the `ref` function to select from other models
-
-select *
-from {{ ref('my_first_dbt_model') }}
-where id = 1
+with source as (
+    select * from {{ source('my_dbt_db', 'raw_customers') }}
+),
+renamed as (
+    select
+        id as customer_id,
+        name as customer_name
+    from source
+)
+select * from renamed
