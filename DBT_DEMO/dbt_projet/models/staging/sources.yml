@@ -1,1 +1,8 @@
+version: 2
 
+sources:
+    - name: my_dbt_db
+      schema: my_dbt_db
+
+      tables:
+        - name: raw_customers
